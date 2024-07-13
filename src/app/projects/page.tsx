@@ -31,7 +31,7 @@ export default function ProjectsPage() {
           <div className="transform transition duration-500 hover:scale-105">
             <button onClick={() => handleButtonClick('angular')}>
               <Image 
-                src="/assets/images/angular.png" 
+                src="/assets/images/angular-logo.png" 
                 alt="Angular Logo" 
                 width={150} 
                 height={150} 
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
           <div className="transform transition duration-500 hover:scale-105">
             <button onClick={() => handleButtonClick('react')}>
               <Image 
-                src="/assets/images/react.png" 
+                src="/assets/images/react-logo.png" 
                 alt="React Logo" 
                 width={150} 
                 height={150} 

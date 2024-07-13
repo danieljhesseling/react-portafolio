@@ -11,13 +11,13 @@ export default function Home() {
     <div className="pt-16 overflow-hidden max-h-screen">
       <section className="text-center bg-gradient-to-br from-gray-800 via-gray-700 to-black p-10 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-h-screen max-h-[calc(100vh-4rem)] flex flex-col justify-center items-center">
         <Image
-          src="https://media.licdn.com/dms/image/C4D03AQHxqjuWGvSf0g/profile-displayphoto-shrink_200_200/0/1615291567861?e=1726099200&v=beta&t=QqOFByxRLWhwapbJ9A7n6VjMlAmSTZVblgLbnOyI9S4"
+          src="/assets/images/YO.png"
           alt="Profile Picture"
           width={150}
           height={150}
           className="mx-auto rounded-full border-4 border-white shadow-md mb-6"
         />
-        <h2 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg">Hi! I&apos;m Daniel Jiménez Hesseling</h2>
+        <h2 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg">Hi! I&apos;m Daniel Jiménez Hesselinsg</h2>
         <div className="text-2xl text-gray-300 mb-6">
           {typedText}
         </div>
