@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Head from 'next/head';
 import { useRouter } from 'next/navigation';
 
@@ -30,22 +29,22 @@ export default function ProjectsPage() {
         >
           <div className="transform transition duration-500 hover:scale-105">
             <button onClick={() => handleButtonClick('angular')}>
-              <Image 
-                src="/assets/images/angular-logo.png" 
-                alt="Angular Logo" 
-                width={150} 
-                height={150} 
+              <img
+                src="https://i.imgur.com/klnFl0X.png"
+                alt="Angular Logo"
+                width={150}
+                height={150}
                 className="filter grayscale hover:grayscale-0 transition duration-500 ease-in-out"
               />
             </button>
           </div>
           <div className="transform transition duration-500 hover:scale-105">
             <button onClick={() => handleButtonClick('react')}>
-              <Image 
-                src="/assets/images/react-logo.png" 
-                alt="React Logo" 
-                width={150} 
-                height={150} 
+              <img
+                src="https://i.imgur.com/g7q8Eig.png"
+                alt="React Logo"
+                width={150}
+                height={150}
                 className="filter grayscale hover:grayscale-0 transition duration-500 ease-in-out"
               />
             </button>

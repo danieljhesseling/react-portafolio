@@ -34,7 +34,7 @@ export default function AngularPage() {
           <div className="transform transition duration-500 hover:scale-105 w-full md:w-1/3">
             <a href="https://lostlofimindfulness.web.app/" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/assets/images/logo mindfulness.jpg"
+                src="https://i.imgur.com/JNV2KqU.jpeg"
                 alt="LostLofi Mindfulness Logo"
                 layout="responsive"
                 width={400}
