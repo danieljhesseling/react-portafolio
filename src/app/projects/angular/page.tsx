@@ -22,7 +22,7 @@ export default function AngularPage() {
           <div className="transform transition duration-500 hover:scale-105 w-full md:w-1/3">
             <a href="https://lostlofi.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/assets/images/logo.jpg"
+                src="https://i.imgur.com/Csz4tdQ.jpeg"
                 alt="LostLofi Mindfulness Logo"
                 layout="responsive"
                 width={400}
@@ -46,7 +46,7 @@ export default function AngularPage() {
           <div className="transform transition duration-500 hover:scale-105 w-full md:w-1/3">
             <a href="https://lostlofitasks.web.app/" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/assets/images/logo tasks.jpg"
+                src="https://i.imgur.com/CBep8DV.jpeg"
                 alt="LostLofi Tasks Logo"
                 layout="responsive"
                 width={400}

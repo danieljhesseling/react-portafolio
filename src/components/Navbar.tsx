@@ -16,7 +16,7 @@ const Navbar = () => {
             <Image
               width={42}
               height={42}
-              src="/assets/images/White-Logo.png"
+              src="https://i.imgur.com/a58O2aB.png"
               className="w-8 md:w-9"
               alt="logo"
             />
