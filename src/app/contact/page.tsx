@@ -56,15 +56,13 @@ export default function ContactPage() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center p-8 max-w-8xl mx-auto p-24">
-      <div className="">
-      </div>
-      <div className="w-full p-10 bg-gray-900 bg-opacity-80 rounded-lg shadow-inner">
-        <h2 className="text-5xl font-bold text-white mb-6">Contact Me</h2>
+    <section className="flex flex-col items-center justify-center min-h-screen p-8 bg-gradient-to-br from-gray-800 via-gray-700 to-black">
+      <div className="w-full max-w-3xl p-10 bg-gray-800 bg-opacity-90 rounded-lg shadow-xl">
+        <h2 className="text-5xl font-bold text-white mb-6 text-center">Contact Me</h2>
         {submitted ? (
-          <p className="text-xl text-gray-300">Thank you for your message!</p>
+          <p className="text-xl text-gray-300 text-center">Thank you for your message!</p>
         ) : (
-          <form onSubmit={handleSubmit} className="flex flex-col space-y-6 w-full max-w-2xl mx-auto">
+          <form onSubmit={handleSubmit} className="flex flex-col space-y-6">
             <div>
               <input
                 className="border border-gray-600 bg-gray-800 p-4 rounded text-white w-full"
@@ -97,13 +95,12 @@ export default function ContactPage() {
               ></textarea>
               {errors.message && <p className="text-red-500">{errors.message}</p>}
             </div>
-            <button className="bg-blue-500 text-white py-3 px-6 rounded hover:bg-blue-600 transition duration-300">
+            <button className="bg-blue-500 text-white py-3 px-6 rounded hover:bg-blue-600 transition duration-300 self-center">
               Send
             </button>
           </form>
         )}
       </div>
     </section>
-
   );
 }
