@@ -17,7 +17,7 @@ export default function Home() {
           height={150}
           className="mx-auto rounded-full border-8 border-white shadow-md mb-6"
         />
-        <h2 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg">Hi! I&apos;m Daniel Jiménez Hesselinsg</h2>
+        <h2 className="text-5xl font-extrabold text-white mb-4 drop-shadow-lg">Hi! I&apos;m Daniel Jiménez Hesseling</h2>
         <div className="text-2xl text-gray-300 mb-6">
           {typedText}
         </div>
